@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\PC\\Documents\\videojuegos 2D\\Tetris\\index.html"
+            "file": "c:\\Users\\PC\\Documents\\videojuegos 2D\\Tetris\\Tetris2D\\index.html"
         }
     ]
 }

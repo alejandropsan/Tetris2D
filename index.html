@@ -3,17 +3,26 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+
         <title>Tetris 2022</title>
     </head>
     <body>
         <h1>Tetris OnFire!!</h1>
 
-        <button>Start</button>
-
         <h1 class="game-over"></h1>
         <h1 class="score-display">0 Points</h1>
         <h1 class="lines-display">0 Lines</h1>
 
+        <hr>
+        <span class="button-start">
+        <button>Start</button>
+        </span>
+        <br>
+        <br>
+
+    <div class="pre-main">    
         <div class="previous-shape">
             <div class="previous-grid">
                 <div></div>
@@ -34,17 +43,19 @@
                 <div></div>
             </div>
         </div>
+    </div>    
         <br>
         <br>
         <br>
-                
+              
+        <main>
         <div class="game">
             <div class="grid">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
                 <div></div>
                 <div></div>
                 <div></div>
@@ -252,6 +263,7 @@
                 <div class="block3"></div>
             </div>
         </div>
+    </main>
         <script src="app.js"></script>
     </body>
 </html>
