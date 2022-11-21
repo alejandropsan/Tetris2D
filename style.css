@@ -20,15 +20,15 @@ main {
 }
 
 div {
-    background-color: #fffb00;
     height: 20px;
     width: 20px;
 }
 
 h1 {
     font-family: "Press Start 2P";
-    display: flex;
-    justify-content: center;
+    background-color: black;
+    width: fit-content;
+    margin-inline: auto
 }
 
 .button-start {
@@ -37,11 +37,13 @@ h1 {
 }
 
 button {
-    padding: 15px;
-    background-color: violet;
-    color: white;
+    padding: 36px;
+    width: 172px;
+    background-image: url(Start.png);
+    background-size: cover;
     border-radius: 10px;
     border: 2px double whitesmoke;
+    cursor: pointer;
 }
 
 .grid {
@@ -49,6 +51,7 @@ button {
     height: 400px;
     width: 200px;
     display: flex;
+    margin-left: -450%;
     flex-wrap: wrap;
     border: 2px double black;
 }
@@ -57,6 +60,7 @@ button {
     background-color: rgb(235, 155, 6);
     height: 80px;
     width: 80px;
+    margin-left: -445%;
     display: flex;
     flex-wrap: wrap;
     border: 2px double black;
